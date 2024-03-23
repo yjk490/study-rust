@@ -3,6 +3,18 @@ name = "basic-syntax"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "main_primitive_type"
+path = "src/main_primitive_type.rs"
+
+[[bin]]
+name = "main_println"
+path = "src/main_println.rs"
+
+[[bin]]
+name = "main_unit_type"
+path = "src/main_unit_type.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
