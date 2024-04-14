@@ -7,6 +7,10 @@ edition = "2021"
 name = "immutable"
 path = "src/immutable.rs"
 
+[[bin]]
+name = "data_type"
+path = "src/data_type.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
