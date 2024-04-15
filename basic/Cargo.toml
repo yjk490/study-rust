@@ -11,6 +11,10 @@ path = "src/immutable.rs"
 name = "data_type"
 path = "src/data_type.rs"
 
+[[bin]]
+name = "functions"
+path = "src/functions.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

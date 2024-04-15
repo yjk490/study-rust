@@ -1,10 +1,4 @@
 fn main() {
-    /**
-     * 복합 타입
-     * - Tuple
-     * - Array
-     */
-
     let tup: (i32, f64, char) = (-28, 3.14, 'Y');   // tuple
 
     // 인덱스로 접근
