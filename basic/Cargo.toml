@@ -16,12 +16,20 @@ name = "functions"
 path = "src/functions.rs"
 
 [[bin]]
-name = "branches"
-path = "src/branches.rs"
+name = "if_else"
+path = "src/if_else.rs"
 
 [[bin]]
-name = "loops"
-path = "src/loops.rs"
+name = "loop"
+path = "src/loop.rs"
+
+[[bin]]
+name = "while"
+path = "src/while.rs"
+
+[[bin]]
+name = "for"
+path = "src/for.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
