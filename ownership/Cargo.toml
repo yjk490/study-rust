@@ -1,0 +1,20 @@
+[package]
+name = "ownership"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "scope"
+path = "src/scope.rs"
+
+[[bin]]
+name = "move"
+path = "src/move.rs"
+
+[[bin]]
+name = "function"
+path = "src/function.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
