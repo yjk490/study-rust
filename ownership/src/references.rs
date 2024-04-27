@@ -8,7 +8,7 @@ fn main() {
 
     let a = &mut name;
     let b = &mut name;
-    // println!("x : {a}, y : {b}");
+    // println!("x : {a}, y : {b}");    // 주석 해제 시 컴파일 에러 발생, 가변 참조자는 두 개 이상 존재할 수 없음
 }
 
 fn add_string(target: &String) {
